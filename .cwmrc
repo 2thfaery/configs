@@ -4,16 +4,16 @@ unbind-mouse	all
 ### Väljanägemine ###
 
 moveamount	40
-borderwidth	2
+borderwidth	1
 
-color		activeborder	"#3e72d5"
-color		inactiveborder	"#1b40a7"
-color		urgencyborder 	"#cc24ld"
+color		activeborder	"#ffa500"
+color		inactiveborder	"#ffd68a"
+color		urgencyborder 	"#ff4500"
 
 color		font		"#eeeeee"
 color		selfont		"#eeeeee"
-color		menubg		"#1b40a7"
-color		menufg		"#3e72d5"
+color		menubg		"#555555"
+color		menufg		"#414a4c"
 
 
 ### Nupud ###
@@ -89,8 +89,7 @@ bind-mouse	M-5		group-rcycle
 		### Rakenduste nupud ###
 
 bind-key	4-Return	st
-bind-key	SC-b		qutebrowser
-bind-key	SC-r		runelite
+bind-key	SC-b		firefox
 
 		### Süsteemi nupud ###
 
@@ -100,4 +99,4 @@ bind-key	SC-r		runelite
 	### Menüü käsud ###
 
 command		terminal	st
-command	browser		qutebrowser
+command		internet	firefox
